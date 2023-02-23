@@ -1,6 +1,6 @@
 # PyCars : Predicting CO2 emission using AI through Machine Learning
 
-![CO2](Streamlit/CO2_wide.jpg)
+![PyCars_img](images/PyCars.jpg)
 
 ## Context
 
