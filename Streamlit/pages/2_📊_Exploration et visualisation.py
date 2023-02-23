@@ -28,7 +28,7 @@ st.title('Data exploration et visualisation')
 st.write("Les données utilisées pour la visualisation regroupent les véhicules neufs acquis par au moins une personne en France en 2019. Contrairement au dataset principal, les véhicules de tous types ont été conservés, c’est à dire les véhicules ne rejetant pas de CO₂ (électrique, hydrogène) ainsi que les véhicules aux carburants rares.")
     
 # lecture du datasets "cars" à partir du jeu de données source en supprimant les doublons sur un identifiant véhicule.
-cars = pd.read_csv('C:/Users/lebre/Documents/Jupyter Notebook/Projet CO2/Data/cars_FR2019.csv', dtype={'Cn': 'str', 'IT': 'str'},index_col=0)
+cars = pd.read_csv('data/cars_FR2019.csv', dtype={'Cn': 'str', 'IT': 'str'},index_col=0)
     
 # Création des DataFrames "cars_viz" et "parc_viz" et suppression des véhicules avec type de carburant inconnu
 cars_viz = cars[(cars['Ft']!='unknown')]
