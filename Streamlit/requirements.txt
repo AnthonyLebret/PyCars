@@ -6,6 +6,7 @@ seaborn==0.11.2
 scikit-learn==1.0.2
 scipy==1.9.1
 shap==0.41.0
+plotly==5.9.0
 plotly_express==0.4.0
 pillow==9.2.0
 xgboost
