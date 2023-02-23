@@ -19,8 +19,8 @@ st.markdown(hide_footer_style, unsafe_allow_html=True)
 
 # Image CO2
 from PIL import Image
-image = Image.open('CO2_wide.jpg')
-st.image(image)
+image1 = Image.open("CO2_wide.jpg")
+st.image(image1)
     
 # Titre
 st.markdown("<h1 style='text-align: center;'>PyCars : Prédictions des émissions de CO₂</h1>", unsafe_allow_html=True)
