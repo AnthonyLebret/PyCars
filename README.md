@@ -10,7 +10,9 @@ This project was developed by the following team :
 - Anthony Lebret ([GitHub](https://github.com/AnthonyLebret) / [LinkedIn](https://linkedin.com/in/anthony-lebret-a7aabb176))
 
 You will find our code in the [notebooks](./notebooks) section.
-You will find our [report](https://github.com/AnthonyLebret/PyCars/blob/05c990694a4a8990b8504d4076df3c9380e2000d/Rapport%20Exploration.pdf) at the root of this repo (in French only).
+You will find our [report](https://github.com/AnthonyLebret/PyCars/blob/05c990694a4a8990b8504d4076df3c9380e2000d/Rapport%20Exploration.pdf) at the root of this repo (in french only).
+
+Here you can also access to our [Streamlit App](https://pycars.streamlit.app/).
 
 ## Context
 
