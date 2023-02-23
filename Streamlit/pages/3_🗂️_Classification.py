@@ -30,7 +30,7 @@ st.markdown(hide_footer_style, unsafe_allow_html=True)
 
 # Image CO2
 from PIL import Image
-image = Image.open('CO2_wide.jpg')
+image = Image.open('Streamlit/CO2_wide.jpg')
 st.image(image)
 
 # Titre
@@ -48,7 +48,7 @@ st.write("- De **190 à 499 g/km, classe 4**.")
 
 
 # Import dataset
-cars = pd.read_csv("C:/Users/lebre/Documents/Jupyter Notebook/Projet CO2/Data/cars_FR2019_clean.csv", dtype={'Cn': 'str', 'IT': 'uint8'},index_col=0)
+cars = pd.read_csv("data/cars_FR2019_clean.csv", dtype={'Cn': 'str', 'IT': 'uint8'},index_col=0)
 
 ### Preprocessing 
 
