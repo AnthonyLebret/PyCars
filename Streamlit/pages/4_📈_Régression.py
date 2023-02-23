@@ -339,5 +339,5 @@ if model == 'XGBoost':
     st.markdown("#### Importance des variables selon les valeurs de Shap")
     
     from PIL import Image
-    shap = Image.open('shap_regression.png')
+    shap = Image.open('Streamlit/shap_regression.png')
     st.image(shap)
