@@ -19,7 +19,7 @@ st.markdown(hide_footer_style, unsafe_allow_html=True)
 
 # Image CO2
 from PIL import Image
-image1 = Image.open("app/pycars/Streamlit/CO2_wide.jpg")
+image1 = Image.open(app/pycars/Streamlit/CO2_wide.jpg)
 st.image(image1)
     
 # Titre
