@@ -31,7 +31,7 @@ st.markdown(hide_footer_style, unsafe_allow_html=True)
 
 # Image CO2
 from PIL import Image
-image = Image.open('CO2_wide.jpg')
+image = Image.open('Streamlit/CO2_wide.jpg')
 st.image(image)
 
 # Titre
@@ -42,7 +42,7 @@ st.header("Régression")
 st.write("En aval du pre-processing, **les variables catégorielles ont été dichotomisées** pour la modélisation et les variables de masse et d'émission de CO₂ selon la norme NEDC supprimées (pour cette présentation Streamlit, on ne s'intéressera qu'à la norme WLTP afin d'accélérer l'exécution des scripts).")
 
 # Import dataset
-cars = pd.read_csv("C:/Users/lebre/Documents/Jupyter Notebook/Projet CO2/Data/cars_FR2019_clean.csv", index_col=0)
+cars = pd.read_csv("data/cars_FR2019_clean.csv", index_col=0)
 
 
 ### Preprocessing 
