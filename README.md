@@ -10,7 +10,7 @@ This project was developed by the following team :
 - Anthony Lebret ([GitHub](https://github.com/AnthonyLebret) / [LinkedIn](https://linkedin.com/in/anthony-lebret-a7aabb176))
 
 You will find our code in the [notebooks](./notebooks) section.
-You will find our [report](./Rapport Exploration.pdf) at the root of this repo (in French only).
+You will find our [report](main) at the root of this repo (in French only).
 
 ## Context
 
