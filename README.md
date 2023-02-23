@@ -1,5 +1,7 @@
 # PyCars : Predicting CO2 emission using AI through Machine Learning
 
+https://www.actu-environnement.com/images/illustrations/breve/32740_large.jpg
+
 ## Context
 
 Each year, the **European Environment Agency (EEA)** compiles and publishes a database for monitoring CO₂ emissions from passenger cars.
