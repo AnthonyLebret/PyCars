@@ -9,4 +9,5 @@ shap==0.41.0
 plotly==5.9.0
 plotly_express==0.4.0
 pillow==9.2.0
+hyperopt==0.2.7
 xgboost
