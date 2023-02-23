@@ -26,6 +26,9 @@ hide_footer_style = """
     """
 st.markdown(hide_footer_style, unsafe_allow_html=True)
 
+# Cacher les warnings
+st.set_option('deprecation.showPyplotGlobalUse', False)
+
 # Image CO2
 from PIL import Image
 image = Image.open('Streamlit/CO2_wide.jpg')
