@@ -13,8 +13,6 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split, cross_validate, KFold, cross_val_score, GridSearchCV
 from sklearn.metrics import f1_score, classification_report, accuracy_score
 import shap
-import hyperopt
-from hyperopt import fmin, tpe, space_eval, tpe, Trials, STATUS_OK
 import streamlit as st
 
 st.set_page_config(page_title="Classification", page_icon="🗂️")
