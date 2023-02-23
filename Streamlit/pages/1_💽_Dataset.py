@@ -29,8 +29,8 @@ st.write("Ainsi, les informations complètes du parc des véhicules particuliers
 st.write("Notre dataset dénommé **“Cars”** est constitué de **16 975 véhicules neufs** et a été créé à partir du jeu de données source en **supprimant les doublons** sur un identifiant véhicule.")
 
 # Import dataset
-cars = pd.read_csv("C:/Users/lebre/Documents/Jupyter Notebook/Projet CO2/Data/cars_FR2019.csv", index_col=0)
-cars_clean = pd.read_csv("C:/Users/lebre/Documents/Jupyter Notebook/Projet CO2/Data/cars_FR2019_clean.csv", index_col=0)
+cars = pd.read_csv("data/cars_FR2019.csv", index_col=0)
+cars_clean = pd.read_csv("data/cars_FR2019_clean.csv", index_col=0)
 cars_clean = cars_clean.drop(['Cr', 'r', 'size', 'indicator', 'Mh', 'T', 'Va', 'Ve'], axis=1)
 # Renommer les variables
 rename = {'m': 'Masse (kg)',
