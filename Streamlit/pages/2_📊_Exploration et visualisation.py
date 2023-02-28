@@ -7,7 +7,6 @@ import plotly_express as px
 st.set_page_config(page_title="Exploration et visualisation", page_icon="📊")
 st.sidebar.header("Exploration et visualisation")
 st.sidebar.info("Auteurs : \n\n - Isabelle EVRARD [Linkedin](https://www.linkedin.com/in/isabelle-evrard-82a6b2253/) \n\n - Anthony LEBRET [Linkedin](https://linkedin.com/in/anthony-lebret-a7aabb176)")
-st.sidebar.info("Formation DataScientist Novembre 2022, [DataScientest](https://datascientest.com/)")
 st.sidebar.info("Données : [Site de l'Agence européenne pour l'environnement](https://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-22)")
 
 # Cacher "Made with Streamlit"
