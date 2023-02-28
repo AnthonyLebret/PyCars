@@ -6,7 +6,6 @@ st.set_page_config(
 )
 st.sidebar.header("PyCars")
 st.sidebar.info("Auteurs : \n\n - Isabelle EVRARD [Linkedin](https://www.linkedin.com/in/isabelle-evrard-82a6b2253/) \n\n - Anthony LEBRET [Linkedin](https://linkedin.com/in/anthony-lebret-a7aabb176)")
-st.sidebar.info("Formation DataScientist Novembre 2022, [DataScientest](https://datascientest.com/)")
 st.sidebar.info("Données : [Site de l'Agence européenne pour l'environnement](https://www.eea.europa.eu/data-and-maps/data/co2-cars-emission-22)")
 
 # Cacher "Made with Streamlit"
@@ -26,7 +25,7 @@ st.image(image1)
 st.markdown("<h1 style='text-align: center;'>PyCars : Prédictions des émissions de CO₂</h1>", unsafe_allow_html=True)
 
 # Project PyCars
-st.write("Projet réalisé dans le cadre de la formation Data Scientist de [DataScientest](https://datascientest.com/), promotion novembre 2022.")
+st.write("Projet réalisé dans le cadre de la formation Data Scientist de [DataScientest](https://datascientest.com/).")
 st.write("Auteurs :")
 st.write("- Isabelle EVRARD", "[Linkedin](https://www.linkedin.com/in/isabelle-evrard-82a6b2253/)")
 st.write("- Anthony LEBRET", "[Linkedin](https://linkedin.com/in/anthony-lebret-a7aabb176)")
