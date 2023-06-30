@@ -11,7 +11,6 @@ import statsmodels.api
 import statsmodels.api as sm
 import scipy.stats as stats
 import xgboost as xgb
-import shap
 from scipy.stats import norm, ttest_ind
 from sklearn import preprocessing
 from sklearn.linear_model import LinearRegression, ElasticNetCV
